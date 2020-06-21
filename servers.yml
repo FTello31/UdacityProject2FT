@@ -54,7 +54,6 @@ Resources:
           echo "it works! Udagram, Udacity" > index.html
           systemctl start apache2.service
       ImageId: ami-0d1cd67c26f5fca19
-      KeyName: asdasd
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: t3.medium
